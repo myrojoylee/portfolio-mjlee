@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:visited,
+a:active,
+a:link {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.698);
+  font-style: italic;
+}
+
+p {
+  font-size: 1em;
+}
+
+.root {
+  height: 100%;
+}
+
+.section-one {
+  background-image: url("../assets/background_flowers_2.jpeg");
+  height: 40vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-two {
+  background-image: url("../assets/background_flowers.jpg");
+  height: 30vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.5em;
+  }
+
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.5em;
+  }
+
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #d8b4fe, #e9d5ff, #ede9fe);
+  height: fit-content;
+  padding: 1em;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
