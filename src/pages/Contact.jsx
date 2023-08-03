@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import "../../styles/Contact.css";
+import "../styles/Contact.css";
 
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../utils/helpers";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -90,7 +90,7 @@ function Contact() {
   };
 
   return (
-    <section className="contact-detail">
+    <div className="contact-detail">
       <h1>Let's Chat!</h1>
       <h3>
         Fill out the form below and I will get back to you as soon as I can!
@@ -135,7 +135,7 @@ function Contact() {
           </Button>
         </Form>
       </article>
-    </section>
+    </div>
   );
 }
 

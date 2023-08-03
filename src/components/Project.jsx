@@ -77,15 +77,11 @@ const projectCards = [
   },
 ];
 
-function Project({ handlePageChange }) {
+function Project() {
   return (
     <div className="project-card-group">
       {projectCards.map((card) => (
-        <ProjectCard
-          key={card.id}
-          card={card}
-          handlePageChange={handlePageChange}
-        />
+        <ProjectCard key={card.id} card={card} />
       ))}
     </div>
   );

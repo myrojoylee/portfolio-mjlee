@@ -1,18 +1,23 @@
 import React from "react";
 import "../styles/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faCodepen,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
     <footer>
       <a href="https://www.linkedin.com/in/myro-joy-lee/">
-        <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+        <FontAwesomeIcon icon={faLinkedin} />
       </a>
       <a href="https://github.com/myrojoylee">
-        <FontAwesomeIcon icon="fa-brands fa-square-github" />
+        <FontAwesomeIcon icon={faGithub} />
       </a>
       <a href="https://codepen.io/your-work">
-        <FontAwesomeIcon icon="fa-brands fa-codepen" />
+        <FontAwesomeIcon icon={faCodepen} />
       </a>
     </footer>
   );

@@ -1,9 +1,9 @@
 import React from "react";
-import profilepic from "../../assets/profile_pic_lavender.png";
+import profilepic from "../assets/profile_pic_lavender.png";
 
 export default function AboutMe() {
   return (
-    <section className="detail">
+    <div className="detail">
       <article className="detail-heading">
         <h1 className="self">About Me</h1>
         <img className="profile-pic" src={profilepic} alt="" />
@@ -28,6 +28,6 @@ export default function AboutMe() {
           look forward to transforming your ideas into sustainable solutions.
         </p>
       </article>
-    </section>
+    </div>
   );
 }
