@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./UI/ProjectCard";
 import "../styles/Project.css";
 import PandaBytesBlog from "../assets/panda-bytes-blog.png";
 import LordOfThePies from "../assets/lord-of-the-pies.png";

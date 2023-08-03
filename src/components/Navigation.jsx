@@ -16,7 +16,7 @@ function Navigation() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="align-self-end">
-        <Nav className="ms-auto" variant="tabs" defaultActiveKey="/aboutme">
+        <Nav className="ms-auto" variant="tabs" defaultActiveKey="/home">
           <Link key={1} className="nav-link navbar-gradient" to="/">
             About Me
           </Link>

@@ -16,7 +16,7 @@ function Footer() {
       <a href="https://github.com/myrojoylee">
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <a href="https://codepen.io/your-work">
+      <a href="https://codepen.io/p2nd2b32r">
         <FontAwesomeIcon icon={faCodepen} />
       </a>
     </footer>

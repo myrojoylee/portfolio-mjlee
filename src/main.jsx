@@ -14,7 +14,7 @@ import Resume from "./pages/Resume";
 const router = createBrowserRouter([
   // Todo: Define the accessible routes, and which components respond to which URL
   {
-    path: "/",
+    path: "*",
     element: <App />,
     children: [
       {
