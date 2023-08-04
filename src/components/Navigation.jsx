@@ -14,9 +14,7 @@ function Navigation() {
       expand="lg"
       className="navbar-color navbar-wrapper"
     >
-      <Navbar.Brand href="#home" className="full-name">
-        Myro Joy Lee
-      </Navbar.Brand>
+      <Navbar.Brand className="full-name">Myro Joy Lee</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="align-self-end">
         <Nav className="ms-auto" variant="tabs" defaultActiveKey="/aboutme">

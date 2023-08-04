@@ -35,10 +35,6 @@ header {
   font-weight: bold;
 }
 
-.detail-wrapper {
-  background-color: red;
-}
-
 .detail {
   display: flex;
   background-image: linear-gradient(to right, #d8b4fe, #e9d5ff, #ede9fe);
