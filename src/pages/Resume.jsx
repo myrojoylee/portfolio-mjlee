@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Resume.css";
-import ResumeMJLeePDF from "../assets/Resume-bw-mjlee-2.pdf";
+import ResumeMJLeePDF from "../assets/Resume-bw-mjlee-aug-4.pdf";
 
 export default function Resume() {
   return (
@@ -40,7 +40,7 @@ export default function Resume() {
               <li>APIs</li>
               <li>MySQL, Sequelize</li>
               <li>MongoDB, Mongoose</li>
-              <li>GraphQL</li>
+              {/* <li>GraphQL</li> */}
             </ul>
           </div>
         </article>
