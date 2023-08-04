@@ -4,11 +4,11 @@
 
 ## Description
 
-This work recreated the professional portfolio using React! React-based bootstrap components, Font Awesome imports, and React Router were used in this work.
+This work recreated the professional portfolio using React! React-based bootstrap components, Font Awesome imports, and React Router were used in this work. [Vite](https://vitejs.dev/) was used to set up the app and [Netlify](https://www.netlify.com/?attr=homepage-modal) was used for deployment.
 
 ## Usage
 
-The live site can be found [here](https://myrojoylee.netlify.app/). 
+The live site can be found [here](https://myrojoylee.netlify.app/).
 
 https://github.com/myrojoylee/portfolio-mjlee/assets/120980593/8ad06679-9562-4217-9aaa-8bc0531feb29
 
