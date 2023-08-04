@@ -43,7 +43,6 @@ function ProjectCard({ card: { back, front, link, repo } }) {
 
         <div className="card-face card-front" style={frontStyle}>
           <img src={front} alt="" className="project-card-img" />
-          <p className="click-me">Click for details</p>
         </div>
       </div>
     </div>

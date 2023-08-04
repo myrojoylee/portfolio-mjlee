@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "../styles/Contact.css";
+import "../styles/index.css";
 
 import { validateEmail } from "../utils/helpers";
 
@@ -11,6 +12,8 @@ function Contact() {
   const [message, setMessage] = useState("");
 
   const [errorMessage, setErrorMessage] = useState("");
+
+  const emailAddress = "mailto:myro.joy.olida.092282@gmail.com";
 
   const handleInputChange = (e) => {
     setErrorMessage("");
@@ -135,6 +138,14 @@ function Contact() {
           </Button>
         </Form>
       </article>
+      <div className="contact-email">
+        <h4>
+          You can also reach me via
+          <a className="emailBtn" href={emailAddress}>
+            e-mail.
+          </a>
+        </h4>
+      </div>
     </div>
   );
 }

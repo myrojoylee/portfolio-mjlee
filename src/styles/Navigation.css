@@ -1,3 +1,10 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
 .navbar-wrapper {
   background-image: linear-gradient(to right, #ede9fe, #e9d5ffc7, #d8b4fec7);
   padding: 1em 1em 0;
@@ -67,5 +74,13 @@
   .detail-heading {
     width: 100%;
     align-items: center;
+  }
+
+  .full-name {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 1.75em;
   }
 }

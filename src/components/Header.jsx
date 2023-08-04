@@ -1,6 +1,6 @@
 import React from "react";
 import NavigationBar from "./Navigation";
-import "../styles/Header.css";
+import "../styles/Navigation.css";
 
 function Header({ currentPage, handlePageChange }) {
   return (

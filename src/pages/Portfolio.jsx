@@ -7,7 +7,7 @@ export default function Portfolio({ handlePageChange }) {
     <section className="project-detail">
       <article className="project-detail-text">
         <h1>My Work</h1>
-        <p>See selected projects below!</p>
+        <p>Click any of the projects below for more details!</p>
       </article>
       <Project handlePageChange={handlePageChange} />
     </section>

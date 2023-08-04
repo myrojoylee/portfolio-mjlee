@@ -41,42 +41,76 @@ p {
   background-size: cover;
 }
 
-@media only screen and (min-width: 1200px) {
-  p {
-    font-size: 1.5em;
-  }
-
-  .contact-form-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
+.detail-wrapper {
+  background-color: red;
 }
 
-@media only screen and (min-width: 1200px) {
-  p {
-    font-size: 1.5em;
-  }
-
-  .contact-form-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
+.detail {
+  display: flex;
+  background-image: linear-gradient(to right, #d8b4fe, #e9d5ff, #ede9fe);
+  height: fit-content;
+  padding: 1em;
+  gap: 1em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .contact-form-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-  }
+/* about me */
+
+.detail-heading {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.detail-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.profile-pic {
+  display: flex;
+  width: 20vh;
+}
+
+footer {
+  display: flex;
+  font-size: 2.5em;
+  justify-content: center;
+  gap: 1em;
+  background-image: linear-gradient(to right, #ede9fe, #e9d5ff, #d8b4fe);
+  padding: 0.5em;
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
+  .detail {
+    flex-direction: column;
+  }
+
+  .detail-heading {
+    width: 100%;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  p {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.5em;
+  }
+
   .contact-form-wrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
   }
 }
