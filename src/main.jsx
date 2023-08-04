@@ -14,28 +14,29 @@ import Resume from "./pages/Resume";
 const router = createBrowserRouter([
   // Todo: Define the accessible routes, and which components respond to which URL
   {
-    path: "*",
+    path: "/",
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
-        path: "aboutme",
+        index: true,
         element: <AboutMe />,
-        errorElement: <Error />,
       },
       {
-        path: "portfolio",
+        path: "/aboutme",
+        element: <AboutMe />,
+      },
+      {
+        path: "/portfolio",
         element: <Portfolio />,
-        errorElement: <Error />,
       },
       {
-        path: "contact",
+        path: "/contact",
         element: <Contact />,
-        errorElement: <Error />,
       },
       {
-        path: "resume",
+        path: "/resume",
         element: <Resume />,
-        errorElement: <Error />,
       },
     ],
   },
