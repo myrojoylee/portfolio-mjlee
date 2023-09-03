@@ -1,6 +1,7 @@
 import React from "react";
-import ProjectCard from "./UI/ProjectCard";
+import ProjectCard from "./ProjectCard.jsx";
 import "../styles/Project.css";
+import PandaKnits from "../assets/panda-knits.png";
 import PandaBytesBlog from "../assets/panda-bytes-blog.png";
 import LordOfThePies from "../assets/lord-of-the-pies.png";
 import EndWorldThirst from "../assets/end-world-thirst.png";
@@ -11,6 +12,17 @@ import TicTacToe from "../assets/tic-tac-toe.png";
 const projectCards = [
   {
     id: "1",
+    front: PandaKnits,
+    back: {
+      title: "Panda Knits",
+      description: "E commerce site",
+      technologies: "MongoDB, Express, React, NodeJS",
+    },
+    link: "https://panda-knits-847b929e7885.herokuapp.com/",
+    repo: "https://github.com/myrojoylee/panda-knits",
+  },
+  {
+    id: "2",
     front: PandaBytesBlog,
     back: {
       title: "Panda Bytes Blog",
@@ -21,7 +33,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/panda-bytes-blog",
   },
   {
-    id: "2",
+    id: "3",
     front: LordOfThePies,
     back: {
       title: "Lord of the Pies",
@@ -32,7 +44,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/Lord-of-the-Pies",
   },
   {
-    id: "3",
+    id: "4",
     front: EndWorldThirst,
     back: {
       title: "End World Thirst",
@@ -43,7 +55,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/end-world-thirst",
   },
   {
-    id: "4",
+    id: "5",
     front: NoteWorthyEditor,
     back: {
       title: "NoteWorthy Editor",
@@ -54,7 +66,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/note-worthy-editor",
   },
   {
-    id: "5",
+    id: "6",
     front: WeatherDashboard,
     back: {
       title: "Weather Dashboard",
@@ -65,7 +77,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/weather-dashboard-app",
   },
   {
-    id: "6",
+    id: "7",
     front: TicTacToe,
     back: {
       title: "Tic Tac Toe",
