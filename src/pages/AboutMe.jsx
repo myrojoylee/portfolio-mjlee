@@ -17,11 +17,12 @@ export default function AboutMe() {
         <p>
           My first taste of coding came in college with a course in C++ and
           MatLab. A Psychology degree and a restaurant management experience
-          later, I am back in tech.
+          later, I am back in tech to flex my problem-solving muscles.
         </p>
         <p>
-          I am currently in a coding bootcamp at the University of Pennsylvania
-          working on a certificate in fullstack web development.
+          I recently earned my certificate in fullstack web development from The
+          University of Pennsylvania through the College of Liberal &
+          Professional Studies in collaboration with edX.
         </p>
         <p>
           After many debugging sessions later, I am loving it more than ever! I

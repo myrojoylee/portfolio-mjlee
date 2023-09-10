@@ -3,6 +3,8 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "../styles/Contact.css";
 import "../styles/index.css";
+import emailjs from "@emailjs/browser";
+// require("dotenv").config();
 
 import { validateEmail } from "../utils/helpers";
 
@@ -94,8 +96,8 @@ function Contact() {
 
   return (
     <div className="contact-detail">
-      <h1>Let's Chat!</h1>
-      <h3>
+      {/* <h1>Let's Chat!</h1> */}
+      {/* <h3>
         Fill out the form below and I will get back to you as soon as I can!
       </h3>
       <article className="contact-form-wrapper">
@@ -137,12 +139,18 @@ function Contact() {
             Submit
           </Button>
         </Form>
-      </article>
+      </article> */}
       <div className="contact-email">
+        <h2> If you'd like to ...</h2>
+        <ul>
+          <li>...talk about a project idea</li>
+          <li>...discuss an existing project</li>
+          <li>...just say hi</li>
+        </ul>
         <h4>
-          You can also reach me via
+          Feel free to reach me via
           <a className="emailBtn" href={emailAddress}>
-            e-mail.
+            e-mail !
           </a>
         </h4>
       </div>
