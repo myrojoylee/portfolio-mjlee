@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Resume.css";
-import ResumeMJLeePDF from "../assets/Resume-bw-mjlee-sep-9.pdf";
+import ResumeMJLeePDF from "../assets/Resume-bw-mjlee-sep-19.pdf";
 
 export default function Resume() {
   return (

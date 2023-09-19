@@ -6,7 +6,7 @@ import PandaBytesBlog from "../assets/panda-bytes-blog.png";
 import LordOfThePies from "../assets/lord-of-the-pies.png";
 import EndWorldThirst from "../assets/end-world-thirst.png";
 import NoteWorthyEditor from "../assets/note-worthy-editor.png";
-import WeatherDashboard from "../assets/weather-dashboard.png";
+import WhatIsMyWeather from "../assets/wmw.png";
 import TicTacToe from "../assets/tic-tac-toe.png";
 
 const projectCards = [
@@ -23,6 +23,17 @@ const projectCards = [
   },
   {
     id: "2",
+    front: WhatIsMyWeather,
+    back: {
+      title: "What Is My Weather?",
+      description: "Weather Forecast App",
+      technologies: "React, Axios",
+    },
+    link: "https://wmw-official.netlify.app/",
+    repo: "https://github.com/myrojoylee/what-is-my-weather",
+  },
+  {
+    id: "3",
     front: PandaBytesBlog,
     back: {
       title: "Panda Bytes Blog",
@@ -33,7 +44,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/panda-bytes-blog",
   },
   {
-    id: "3",
+    id: "4",
     front: LordOfThePies,
     back: {
       title: "Lord of the Pies",
@@ -44,7 +55,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/Lord-of-the-Pies",
   },
   {
-    id: "4",
+    id: "5",
     front: EndWorldThirst,
     back: {
       title: "End World Thirst",
@@ -55,7 +66,7 @@ const projectCards = [
     repo: "https://github.com/myrojoylee/end-world-thirst",
   },
   {
-    id: "5",
+    id: "6",
     front: NoteWorthyEditor,
     back: {
       title: "NoteWorthy Editor",
@@ -64,17 +75,6 @@ const projectCards = [
     },
     link: "https://note-worthy-editor-994ec6cf6337.herokuapp.com/",
     repo: "https://github.com/myrojoylee/note-worthy-editor",
-  },
-  {
-    id: "6",
-    front: WeatherDashboard,
-    back: {
-      title: "Weather Dashboard",
-      description: "Weather Forecast App",
-      technologies: "HTML, CSS, JavaScript, APIs",
-    },
-    link: "https://myrojoylee.github.io/weather-dashboard-app/",
-    repo: "https://github.com/myrojoylee/weather-dashboard-app",
   },
   {
     id: "7",
