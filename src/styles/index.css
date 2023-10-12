@@ -47,6 +47,7 @@ p {
   height: fit-content;
   padding: 1em;
   gap: 1em;
+  width: 100%;
 }
 
 /* about me */
@@ -54,18 +55,21 @@ p {
 .detail-heading {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  align-items: center;
+  width: 33.333%;
 }
 
 .detail-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-self: center;
+  width: 66.666%;
 }
 
 .profile-pic {
   display: flex;
-  width: 20vh;
+  width: 70%;
 }
 
 footer {
@@ -86,6 +90,14 @@ footer {
   .detail-heading {
     width: 100%;
     align-items: center;
+  }
+
+  .detail-text {
+    width: 90%;
+  }
+
+  .profile-pic {
+    width: 50%;
   }
 
   h1 {

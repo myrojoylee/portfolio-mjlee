@@ -16,7 +16,10 @@ function Navigation() {
     >
       <Navbar.Brand className="full-name">Myro Joy Lee</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav" className="align-self-end">
+      <Navbar.Collapse
+        id="responsive-navbar-nav"
+        className="align-self-end nav-menu"
+      >
         <Nav className="ms-auto" variant="tabs" defaultActiveKey="/aboutme">
           <Link
             className={
