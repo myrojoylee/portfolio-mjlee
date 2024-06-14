@@ -3,13 +3,12 @@
   padding: 0;
 }
 
-a:visited,
+/* a:visited,
 a:active,
 a:link {
-  display: block;
   color: black;
   text-decoration: none;
-}
+} */
 
 a:hover {
   cursor: pointer;
@@ -65,6 +64,10 @@ p {
   justify-content: center;
   align-self: center;
   width: 66.666%;
+}
+
+.detail-contact {
+  text-decoration: underline;
 }
 
 .profile-pic {
