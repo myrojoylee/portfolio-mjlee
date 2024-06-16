@@ -58,6 +58,7 @@ li, .resume-section p {
 
 .resume-experience-heading {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -75,11 +76,6 @@ li, .resume-section p {
 .resume-education-detail {
   font-style: italic;
 }
-
-/* .resume-skills-details {
-  display: flex;
-  width: 100%;
-} */
 
 button {
   border: none;
@@ -110,5 +106,9 @@ button:hover {
 
   li, .resume-section p {
     font-size: 1em;
+  }
+
+  .resume-experience-heading {
+    flex-direction: column;
   }
 }

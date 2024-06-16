@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/Resume.css";
-// import ResumeMJLeePDF from "../assets/Resume-bw-mjlee-sep-19.pdf";
-
 
 export default function Resume() {
   return (
@@ -28,9 +26,9 @@ export default function Resume() {
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Scale AI</span>, remote</p>
-              <p>5/2024 - present</p>
+              <p className="resume-subheading">Queue Manager</p>
             </div>
-            <p className="resume-subheading">Queue Manager</p>
+            <p>5/2024 - present</p>
             <ul>
               <li>Manage communications to foster productive collaboration among team members</li>
               <li>Identify and address issues to improve performance, engagement, and throughput</li>
@@ -41,9 +39,11 @@ export default function Resume() {
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Scale AI</span>, remote</p>
+              <p className="resume-subheading">Team Lead</p>
+            </div>
+            <div>
               <p>2/2024 - 5/2024</p>
             </div>
-            <p className="resume-subheading">Team Lead</p>
             <ul>
               <li>Led and managed a contributor squad to ensure compliance with quality standards and project guidelines</li>
               <li>Performed daily audits to identify areas of improvement to maintain high-quality work</li>
@@ -53,9 +53,9 @@ export default function Resume() {
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Remotasks</span>, remote</p>
-              <p>12/2023 - 2/2024</p>
+              <p className="resume-subheading">Independent Contractor</p>
             </div>
-            <p className="resume-subheading">Independent Contractor</p>
+            <p>12/2023 - 2/2024</p>
             <ul>
               <li>Aided in training a LLM (Large Language Model) by providing high-quality responses to coding prompts</li>
               <li>Reviewed submitted responses to ensure correctness according to project specifications</li>
@@ -65,8 +65,8 @@ export default function Resume() {
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Private Tutor</span>, State College, PA, remote</p>
-              <p>8/2007 - 12/2023</p>
             </div>
+            <p>8/2007 - 12/2023</p>
             <ul>
               <li>Experience in working with students at the elementary, secondary, collegiate, and post-collegiate level</li>
               <li>Facilitated learning with personalized lesson plans for goal-driven and self-directed growth</li>
@@ -76,9 +76,9 @@ export default function Resume() {
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Maki Yaki Restaurant</span>, State College, PA</p>
-              <p>8/2015 - 10/2022</p>
+              <p className="resume-subheading">Co-owner, Manager</p>
             </div>
-            <p className="resume-subheading">Co-owner, Manager</p>
+            <p>8/2015 - 10/2022</p>
             <ul>
               <li>Overhauled daily operations in order to remain as a competitive dining establishment</li>
               <li>Collaborated with online ordering platforms to provide quality delivery options</li>
@@ -106,50 +106,3 @@ export default function Resume() {
     </>
   )
 }
-
-// export default function Resume() {
-//   return (
-//     <>
-//       <div className="resume">
-//         <article className="resume-detail">
-//           <h1>Resume</h1>
-//           <a
-//             href={ResumeMJLeePDF}
-//             download="ResumeMJLeePDF"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <button>Download PDF</button>
-//           </a>
-//         </article>
-
-//         <article className="resume-list">
-//           <div>
-//             <h4>Front-End Proficiencies</h4>
-//             <ul>
-//               <li>HTML</li>
-//               <li>CSS</li>
-//               <li>JavaScript</li>
-//               <li>React</li>
-//               <li>jQuery</li>
-//               <li>HandlebarsJS</li>
-//               <li>Bootstrap</li>
-//               <li>Bulma</li>
-//             </ul>
-//           </div>
-//           <div>
-//             <h4>Back-End Proficiencies</h4>
-//             <ul>
-//               <li>NodeJS</li>
-//               <li>Express</li>
-//               <li>APIs</li>
-//               <li>MySQL, Sequelize</li>
-//               <li>MongoDB, Mongoose</li>
-//               {/* <li>GraphQL</li> */}
-//             </ul>
-//           </div>
-//         </article>
-//       </div>
-//     </>
-//   );
-// }
