@@ -10,7 +10,7 @@ This work recreated the professional portfolio using React! React-based bootstra
 
 The live site can be found [here](https://myrojoylee.netlify.app/).
 
-https://github.com/myrojoylee/portfolio-mjlee/assets/120980593/8ad06679-9562-4217-9aaa-8bc0531feb29
+https://github.com/myrojoylee/portfolio-mjlee/blob/main/src/assets/mjlee_portfolio_sept_19_demo.gif
 
 ## Acknowledgments
 
