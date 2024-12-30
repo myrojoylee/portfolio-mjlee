@@ -10,6 +10,7 @@ import {
 function Footer() {
   return (
     <footer>
+      <div>
       <a href="https://www.linkedin.com/in/myro-joy-lee/">
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
@@ -19,6 +20,10 @@ function Footer() {
       <a href="https://codepen.io/p2nd2b32r">
         <FontAwesomeIcon icon={faCodepen} />
       </a>
+      </div>
+      <div>
+        <p>Updated 12/29/2024 by <a href="https://www.linkedin.com/in/myro-joy-lee/">Myro Joy Lee</a>.</p>
+      </div>
     </footer>
   );
 }

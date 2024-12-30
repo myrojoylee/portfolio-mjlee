@@ -16,7 +16,7 @@ export default function Resume() {
             <p><span className="resume-skills-category">CSS Frameworks</span>: Bootstrap, Tailwind, Bulma</p>
             <p><span className="resume-skills-category">Database Technologies</span>: MySQL, NoSQL, Mongoose, GraphQL, Sequelize</p>
             <p><span className="resume-skills-category">Operating Systems</span>: Mac OS, Windows</p>
-            <p><span className="resume-skills-category">Tools</span>: Visual Studio Code, Chrome DevTools, Insomnia, MySQL Workbench, Jest, Apollo Sandbox, MongoDB Compass, GitHub Pages, Heroku, Netlify</p>
+            <p><span className="resume-skills-category">Tools</span>: Visual Studio Code, Chrome DevTools, Insomnia, MySQL Workbench, Jest, Apollo Sandbox, MongoDB Compass, GitHub Pages, Heroku, Netlify, Render</p>
 
           </div>
         </article>
@@ -26,20 +26,20 @@ export default function Resume() {
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Scale AI</span>, remote</p>
-              <p className="resume-subheading">Queue Manager</p>
+              <p className="resume-subheading">Queue Manager, Generative AI, Coding</p>
             </div>
             <p>5/2024 - present</p>
             <ul>
-              <li>Manage communications to foster productive collaboration among team members</li>
-              <li>Identify and address issues to improve performance, engagement, and throughput</li>
-              <li>Collaborate with project management to create training courses, best practices manuals, and material for onboarding new team members for a smooth transition to align with project guidelines</li>
-              <li>Audit submissions in the pipeline to ensure high-quality deliverables</li>
+              <li>Manage human contributor funnels for RLHF (Reinforcement Learning from Human Feedback) projects by identifying high-quality coders</li>
+              <li>Analyze Redash dashboards to detect areas of improvement or blockers in the pipelines</li>
+              <li>Collaborate with project management to onboard contributors for a smooth transition to align with project requirements</li>
+              <li>Audit coding submissions in the pipeline to ensure high-quality deliverables</li>
             </ul>
           </div>
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Scale AI</span>, remote</p>
-              <p className="resume-subheading">Team Lead</p>
+              <p className="resume-subheading">Team Lead, Generative AI, Coding</p>
             </div>
             <div>
               <p>2/2024 - 5/2024</p>
@@ -73,7 +73,7 @@ export default function Resume() {
               <li>Assisted students in Math, Chemistry, English, and HTML/CSS/JavaScript</li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Maki Yaki Restaurant</span>, State College, PA</p>
               <p className="resume-subheading">Co-owner, Manager</p>
@@ -84,7 +84,7 @@ export default function Resume() {
               <li>Collaborated with online ordering platforms to provide quality delivery options</li>
               <li>Certified in food handling procedures to ensure safety for customers</li>
             </ul>
-          </div>
+          </div> */}
         </article>
         <article className="resume-section">
           <h3 className="resume-section-heading">EDUCATION</h3>
