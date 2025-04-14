@@ -7,7 +7,7 @@ export default function Resume() {
       <div className="resume resume-detail">
         <article className="resume-section">
           <h3 className="resume-section-heading">PROFESSIONAL SUMMARY</h3>
-          <p>Passionate fullstack developer with excellent management and leadership skills. A versatile and outstanding communicator who quickly adapts to different learning environments to collaborate across teams. A proactive, independent problem-solver who can manage multiple projects.</p>
+          <p>Passionate coding professional with excellent management and leadership skills. A versatile and outstanding communicator who quickly adapts to different learning environments to collaborate across teams. A proactive, independent problem-solver who can manage multiple projects.</p>
         </article>
         <article className="resume-section">
           <h3 className="resume-section-heading">TECHNICAL SKILLS</h3>
@@ -16,7 +16,7 @@ export default function Resume() {
             <p><span className="resume-skills-category">CSS Frameworks</span>: Bootstrap, Tailwind, Bulma</p>
             <p><span className="resume-skills-category">Database Technologies</span>: MySQL, NoSQL, Mongoose, GraphQL, Sequelize</p>
             <p><span className="resume-skills-category">Operating Systems</span>: Mac OS, Windows</p>
-            <p><span className="resume-skills-category">Tools</span>: Visual Studio Code, Chrome DevTools, Insomnia, MySQL Workbench, Jest, Apollo Sandbox, MongoDB Compass, GitHub Pages, Heroku, Netlify, Render</p>
+            <p><span className="resume-skills-category">Tools</span>: Visual Studio Code, Chrome DevTools, Insomnia, MySQL Workbench, Jest, Apollo Sandbox, MongoDB Compass, GitHub Pages, Heroku, Netlify, Render, Cursor</p>
 
           </div>
         </article>
@@ -73,18 +73,6 @@ export default function Resume() {
               <li>Assisted students in Math, Chemistry, English, and HTML/CSS/JavaScript</li>
             </ul>
           </div>
-          {/* <div>
-            <div className="resume-experience-heading">
-              <p><span className="resume-subheading">Maki Yaki Restaurant</span>, State College, PA</p>
-              <p className="resume-subheading">Co-owner, Manager</p>
-            </div>
-            <p>8/2015 - 10/2022</p>
-            <ul>
-              <li>Overhauled daily operations in order to remain as a competitive dining establishment</li>
-              <li>Collaborated with online ordering platforms to provide quality delivery options</li>
-              <li>Certified in food handling procedures to ensure safety for customers</li>
-            </ul>
-          </div> */}
         </article>
         <article className="resume-section">
           <h3 className="resume-section-heading">EDUCATION</h3>
