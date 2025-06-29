@@ -22,7 +22,7 @@ function Footer() {
       </a>
       </div>
       <div>
-        <p>Updated 04/14/2025 by <a href="https://www.linkedin.com/in/myro-joy-lee/">Myro Joy Lee</a>.</p>
+        <p>Updated 06/29/2025 by <a href="https://www.linkedin.com/in/myro-joy-lee/">Myro Joy Lee</a>.</p>
       </div>
     </footer>
   );

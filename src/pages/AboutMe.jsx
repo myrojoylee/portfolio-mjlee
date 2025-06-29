@@ -26,7 +26,7 @@ export default function AboutMe() {
           later, I am back in tech to flex my problem-solving muscles.
         </p>
         <p>
-          When I am not working or coding, I relax with my daily jogs on the treadmill as well as spend time with my family. My hobbies include reading, knitting, music, and calligraphy. I am currently reading <a href="https://dunenovels.com/" target="_blank">Dune</a> by Frank Herbert.
+          When I am not working or coding, I relax with indoor/outdoor walks and jogs as well as spend time with my family. My hobbies include reading, knitting, music, and calligraphy. I am currently reading <a href="https://www.hachettebookgroup.com/titles/fonda-lee/jade-city/9780316440868/" target="_blank">The Green Bone Saga</a> by Fonda Lee.
         </p>
         <p>
           If you'd like to chat, drop me an <a className="detail-contact" href={emailAddress}>e-mail.</a>
