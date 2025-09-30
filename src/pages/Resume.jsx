@@ -7,33 +7,32 @@ export default function Resume() {
       <div className="resume resume-detail">
         <article className="resume-section">
           <h3 className="resume-section-heading">PROFESSIONAL SUMMARY</h3>
-          <p>Passionate coding professional with excellent management and leadership skills. A versatile and outstanding communicator who quickly adapts to different learning environments to collaborate across teams. A proactive, independent problem-solver who can manage multiple projects.</p>
+          <p>Technically-skilled Data Operations Manager specializing in LLM pipeline optimization for coding projects. Leverages hands-on expertise in JavaScript and Python to accurately audit complex coding tasks, debug contributor submissions, and ensure the highest standards of data quality and integrity for Fortune 500 companies. A proactive leader who bridges the gap between technical execution and project management.</p>
         </article>
         <article className="resume-section">
-          <h3 className="resume-section-heading">TECHNICAL SKILLS</h3>
+          <h3 className="resume-section-heading">TECHNICAL & PROFESSIONAL SKILLS</h3>
           <div className="resume-skills-list">
-            <p><span className="resume-skills-category">Web Technologies</span>: React, JavaScript, Python, TypeScript, NodeJS, Express, HTML</p>
-            <p><span className="resume-skills-category">CSS Frameworks</span>: Bootstrap, Tailwind, Bulma</p>
-            <p><span className="resume-skills-category">Database Technologies</span>: MySQL, NoSQL, Mongoose, GraphQL, Sequelize</p>
-            <p><span className="resume-skills-category">Operating Systems</span>: Mac OS, Windows</p>
-            <p><span className="resume-skills-category">Tools</span>: Visual Studio Code, Chrome DevTools, Insomnia, MySQL Workbench, Jest, Apollo Sandbox, MongoDB Compass, GitHub Pages, Heroku, Netlify, Render, Cursor</p>
+            <p><span className="resume-skills-category">Data Analysis & Process Optimization:</span>: KPI & Metric Analysis, Data Workflow Management, Pipeline Optimization, Operational Dashboard Analysis (Redash)</p>
+            <p><span className="resume-skills-category">Human Data for LLM Training</span>: Data Contributor Management, RLHF Pipeline Operations</p>
+            <p><span className="resume-skills-category">Project & Team Management</span>: MTeam Leadership & Mentoring, Contributor Funnel Management, Cross-functional Collaboration, Process Improvement</p>
+            <p><span className="resume-skills-category">Tools & Technologies:</span>: JavaScript, React, Python, Node.js, HTML, CSS</p>
 
           </div>
         </article>
         <article className="resume-section">
 
-          <h3 className="resume-section-heading">RELEVANT EXPERIENCE</h3>
+          <h3 className="resume-section-heading">PROFESSIONAL EXPERIENCE</h3>
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Scale AI</span>, remote</p>
               <p className="resume-subheading">Queue Manager, Generative AI, Coding</p>
             </div>
-            <p>5/2024 - present</p>
+            <p>5/2024 - 7/2025</p>
             <ul>
-              <li>Manage human contributor funnels for RLHF (Reinforcement Learning from Human Feedback) projects by identifying high-quality coders</li>
-              <li>Analyze Redash dashboards to detect areas of improvement or blockers in the pipelines</li>
-              <li>Collaborate with project management to onboard contributors for a smooth transition to align with project requirements</li>
-              <li>Audit coding submissions in the pipeline to ensure high-quality deliverables</li>
+              <li>Managed human contributor funnels for RLHF projects, optimizing data workflows for 200+ contributors to ensure on-time delivery for Fortune 500 clients.</li>
+              <li>Analyzed operational dashboards to monitor KPIs including average contributor rating (1-5 scale) and Task Rejection Rate (&lt;10%), identifying bottlenecks in the attempt or review layers to improve pipeline efficiency.</li>
+              <li>Enforced rigorous data quality by auditing coding submissions and providing targeted feedback through frequent realignment meetings.</li>
+              <li>Collaborated with project management teams to develop onboarding processes and align data operations with evolving project requirements.</li>
             </ul>
           </div>
           <div>
@@ -45,9 +44,9 @@ export default function Resume() {
               <p>2/2024 - 5/2024</p>
             </div>
             <ul>
-              <li>Led and managed a contributor squad to ensure compliance with quality standards and project guidelines</li>
-              <li>Performed daily audits to identify areas of improvement to maintain high-quality work</li>
-              <li>Provided support to resolve project-related issues through effective communication</li>
+              <li>Led and mentored a squad of 30 contributors, conducting weekly audits and check-ins to maintain engagement and uphold project quality standards.</li>
+              <li>Leveraged performance data to identify coaching opportunities and recognize high-quality contributors, directly impacting team quality metrics.</li>
+              <li>Performed daily quality analysis audits to identify areas for improvement, resolving project-related issues through effective communication.</li>
             </ul>
           </div>
           <div>
@@ -57,9 +56,8 @@ export default function Resume() {
             </div>
             <p>12/2023 - 2/2024</p>
             <ul>
-              <li>Aided in training a LLM (Large Language Model) by providing high-quality responses to coding prompts</li>
-              <li>Reviewed submitted responses to ensure correctness according to project specifications</li>
-              <li>Provided help to fellow taskers/reviewers in community Slack channels</li>
+              <li>Generated high-quality human data by responding to complex coding prompts for LLM training datasets.</li>
+              <li>Reviewed submitted responses to ensure correctness according to project specifications.</li>
             </ul>
           </div>
           <div>
