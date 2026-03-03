@@ -13,7 +13,7 @@ export default function AboutMe() {
       </article>
       <article className="detail-text">
         <p>
-          Hi, I'm Myro and I am a technical professional with experience in Human Data for LLM pipelines! I was most recently a Queue Manager at Scale AI and worked in optimizing solutions for Large Language Model (LLM) pipelines in the Coding domain of Generative AI.
+          Hi, I'm Myro and I am a technical professional with experience in Human Data for LLM pipelines!  I currently work as a Human Data Lead for AI projects at micro1! Before this, I was most recently a Queue Manager at Scale AI and worked in optimizing solutions for Large Language Model (LLM) pipelines in the Coding domain of Generative AI.
         </p>
         <p>
           I earned my certificate in fullstack web development from The
@@ -26,7 +26,7 @@ export default function AboutMe() {
           later, I am back in tech to flex my problem-solving muscles.
         </p>
         <p>
-          When I am not working or coding, I relax with indoor/outdoor walks and jogs as well as spend time with my family. My hobbies include reading, knitting, music, and calligraphy. I am currently reading <a href="https://isabelibanez.com/books" target="_blank">The Secrets of the Nile Duology</a> by Isabel Ibañez.
+          When I am not working or coding, I relax with indoor/outdoor walks and jogs as well as spend time with my family. My hobbies include reading, knitting, music, and calligraphy. I am currently reading <a href="https://mlwangbooks.com/blood-over-bright-haven/" target="_blank">Blood over Bright Haven</a> by M.L. Wang.
         </p>
         <p>
           If you'd like to chat, drop me an <a className="detail-contact" href={emailAddress}>e-mail.</a>
