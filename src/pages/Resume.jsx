@@ -7,7 +7,7 @@ export default function Resume() {
       <div className="resume resume-detail">
         <article className="resume-section">
           <h3 className="resume-section-heading">PROFESSIONAL SUMMARY</h3>
-          <p>Technically-skilled Data Operations Manager specializing in LLM pipeline optimization for coding projects. Leverages hands-on expertise in JavaScript and Python to accurately audit complex coding tasks, debug contributor submissions, and ensure the highest standards of data quality and integrity for Fortune 500 companies. A proactive leader who bridges the gap between technical execution and project management.</p>
+          <p>Technically-skilled Data Operations Manager specializing in LLM pipeline optimization for AI projects. Leverages hands-on expertise in JavaScript and Python to accurately audit complex coding tasks, debug contributor submissions, and ensure the highest standards of data quality and integrity for Fortune 500 companies. A proactive leader who bridges the gap between technical execution and project management.</p>
         </article>
         <article className="resume-section">
           <h3 className="resume-section-heading">TECHNICAL & PROFESSIONAL SKILLS</h3>
@@ -22,6 +22,32 @@ export default function Resume() {
         <article className="resume-section">
 
           <h3 className="resume-section-heading">PROFESSIONAL EXPERIENCE</h3>
+          <div>
+            <div className="resume-experience-heading">
+              <p><span className="resume-subheading">micro1</span>, remote</p>
+              <p className="resume-subheading">Human Data Lead</p>
+            </div>
+            <p>12/2025 - present</p>
+            <ul>
+              <li>Manage data funnels for multiple AI projects, owning data quality and expert management.</li>
+              <li>Establish and monitor KPIs to identify bottlenecks in data pipelines.</li>
+              <li>Mentor human data managers to improve their performance and productivity.</li>
+              <li>Collaborate with project team to develop onboarding processes and align data operations with evolving project requirements.</li>
+            </ul>
+          </div>
+          <div>
+            <div className="resume-experience-heading">
+              <p><span className="resume-subheading">micro1</span>, remote</p>
+              <p className="resume-subheading">Human Data Manager</p>
+            </div>
+            <p>11/2025 - 12/2025</p>
+            <ul>
+              <li>Managed human data funnels for AI projects.</li>
+              <li>Monitored KPIs like Task AHT (Average Handling Time) and Tasking Velocity to improve pipeline efficiency.</li>
+              <li>Enforced rigorous data quality by reviewing submissions and providing targeted feedback.</li>
+              <li>Supported project leads to develop onboarding processes for experts.</li>
+            </ul>
+          </div>
           <div>
             <div className="resume-experience-heading">
               <p><span className="resume-subheading">Scale AI</span>, remote</p>
