@@ -1,14 +1,10 @@
-import React from "react";
 import NavigationBar from "./Navigation";
 import "../styles/Navigation.css";
 
-function Header({ currentPage, handlePageChange }) {
+function Header() {
   return (
     <header>
-      <NavigationBar
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
+      <NavigationBar/>
     </header>
   );
 }

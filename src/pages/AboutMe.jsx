@@ -1,4 +1,3 @@
-import React from "react";
 import profilepic from "../assets/profile_pic_lavender_feb_14.png";
 
 export default function AboutMe() {
@@ -26,7 +25,7 @@ export default function AboutMe() {
           later, I am back in tech to flex my problem-solving muscles.
         </p>
         <p>
-          When I am not working or coding, I relax with indoor/outdoor walks and jogs as well as spend time with my family. My hobbies include reading, knitting, music, and calligraphy. I am currently reading <a href="https://mlwangbooks.com/blood-over-bright-haven/" target="_blank">Blood over Bright Haven</a> by M.L. Wang.
+          When I am not working or coding, I relax with indoor/outdoor walks and jogs as well as spend time with my family. My hobbies include reading, knitting, music, and calligraphy. I am currently reading <a href="https://www.rebeccarossauthor.com/divine-rivals" target="_blank" rel="noreferrer">Divine Rivals</a> by Rebecca Ross.
         </p>
         <p>
           If you'd like to chat, drop me an <a className="detail-contact" href={emailAddress}>e-mail.</a>
