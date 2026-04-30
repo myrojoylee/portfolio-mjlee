@@ -12,13 +12,13 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://www.linkedin.com/in/myro-joy-lee/">
+        <a href="https://www.linkedin.com/in/myro-joy-lee/" aria-label="LinkedIn">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://github.com/myrojoylee">
+        <a href="https://github.com/myrojoylee" aria-label="GitHub">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://codepen.io/p2nd2b32r">
+        <a href="https://codepen.io/p2nd2b32r" aria-label="CodePen">
           <FontAwesomeIcon icon={faCodepen} />
         </a>
       </div>
