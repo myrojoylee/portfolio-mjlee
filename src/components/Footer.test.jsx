@@ -1,11 +1,11 @@
 import { cleanup, render, screen } from "@testing-library/react";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import Footer from "./Footer";
 
 afterEach(() => {
   cleanup();
+  vi.unstubAllEnvs();
 });
-
 
 describe("Footer", () => {
   it("renders social links", () => {
@@ -35,5 +35,13 @@ describe("Footer", () => {
       "href",
       "https://www.linkedin.com/in/myro-joy-lee/"
     );
+  });
+
+  it("renders Unknown when the last updated date is missing", () => {
+    vi.stubEnv("VITE_LAST_UPDATED", "");
+
+    render(<Footer />);
+
+    expect(screen.getByText(/updated unknown by/i)).toBeInTheDocument();
   });
 });
