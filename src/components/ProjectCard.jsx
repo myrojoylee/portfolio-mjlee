@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/Project.css";
 
 function ProjectCard({ card: { back, front, link, repo } }) {
@@ -32,10 +32,10 @@ function ProjectCard({ card: { back, front, link, repo } }) {
           <p>Details: {back.description}</p>
           <p>Technologies: {back.technologies}</p>
           <div className="project-link-group">
-            <a onClick={handleChildClick} target="_blank" href={link}>
+            <a onClick={handleChildClick} target="_blank" rel="noreferrer" href={link}>
               <span className="project-link">Link to deployed app</span>
             </a>
-            <a onClick={handleChildClick} target="_blank" href={repo}>
+            <a onClick={handleChildClick} target="_blank" rel="noreferrer" href={repo}>
               <span className="project-link">Link to GitHub repo</span>
             </a>
           </div>

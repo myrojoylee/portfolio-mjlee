@@ -1,4 +1,3 @@
-import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, useLocation } from "react-router-dom";
@@ -7,6 +6,8 @@ import "../styles/Navigation.css";
 
 function Navigation() {
   const currentPage = useLocation().pathname;
+
+  const getNavLinkClass = (path) => currentPage === path ? "active nav-link navbar-gradient" : "nav-link navbar-gradient";
 
   return (
     <Navbar
@@ -22,41 +23,25 @@ function Navigation() {
       >
         <Nav className="ms-auto" variant="tabs" defaultActiveKey="/aboutme">
           <Link
-            className={
-              currentPage === "/"
-                ? " active nav-link navbar-gradient"
-                : "nav-link navbar-gradient"
-            }
+            className={getNavLinkClass("/")}
             to="/"
           >
             About Me
           </Link>
           <Link
-            className={
-              currentPage === "/portfolio"
-                ? " active nav-link navbar-gradient"
-                : "nav-link navbar-gradient"
-            }
+            className={getNavLinkClass("/portfolio")}
             to="/portfolio"
           >
             Portfolio
           </Link>
           <Link
-            className={
-              currentPage === "/contact"
-                ? " active nav-link navbar-gradient"
-                : "nav-link navbar-gradient"
-            }
+            className={getNavLinkClass("/contact")}
             to="/contact"
           >
             Contact
           </Link>
           <Link
-            className={
-              currentPage === "/resume"
-                ? " active nav-link navbar-gradient"
-                : "nav-link navbar-gradient"
-            }
+            className={getNavLinkClass("/resume")}
             to="/resume"
           >
             Resume
