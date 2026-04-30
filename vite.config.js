@@ -6,5 +6,14 @@ export default defineConfig({
   test: {
     environment: "jsdom",
     setupFiles: "./src/setupTests.js",
+    coverage: {
+      exclude: [
+        "src/**/*.css",
+        "src/assets/**",
+        "dist/**",
+        "coverage/**",
+        "node_modules/**",
+      ]
+    }
   },
 });
